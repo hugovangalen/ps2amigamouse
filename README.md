@@ -1,9 +1,10 @@
 # ps2amigamouse
 
+![Arduino Nano](https://github.com/hugovangalen/ps2amigamouse/raw/master/images/ps2amigamouse_nano.jpg)
+
 This is a simple sketch that allows you to connect your PS/2 mouse to your Commodore Amiga 500. Other Amiga types may work, but are untested. I wrote this quite some time ago but never gotten around to share it. 
 
 It uses a slighly modified PS2Mouse.cpp but I'm not sure where I got the original from and what has been modified.
-
 
 The code is far from pretty..!
 
@@ -44,3 +45,4 @@ FRONT of the connector)
                          6 - not connected
 ```
 
+![Early Arduino prototype](https://github.com/hugovangalen/ps2amigamouse/raw/master/images/ps2amigamouse.jpg)
