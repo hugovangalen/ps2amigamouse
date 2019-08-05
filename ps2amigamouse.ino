@@ -1,6 +1,14 @@
 #include "PS2Mouse.h"
 
 /**
+ * Original code by Hugo van Galen, some time in 2018.
+ * Added updated connection diagrams on 5th of August, 2019.
+ * 
+ * The code is not copyrighted; feel free to copy and modify it. 
+ * Although crediting me somewhere would be nice. Thanks.
+ */
+
+/**
  * --[ Mouse/joystick port connection --]
  * 
  * FROM AMIGA MOUSE CONNECTOR                        TO ARDUINO
