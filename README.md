@@ -22,7 +22,7 @@ BACK of the connector)
  | 1o  2o  3o  4o 5o  |  2 - H-pulse           -> Arduino PIN 3
   \  6o  7o  8o  9o  /   3 - VQ-pulse          -> Arduino PIN 4
    +----------------+    4 - HQ-pulse          -> Arduino PIN 5
-                         ** IGNORED ** 5 - BUTTON 3(Middle)  -> Arduino PIN 8
+                         5 - BUTTON 3(Middle) NOT CONNECTED 
                          6 - BUTTON 1(L)       -> Arduino PIN 6
                          7 - +5V (max 50mA)    -> Arduino VCC
                          8 - GND               -> Arduino GND
