@@ -8,13 +8,13 @@ This is a simple sketch that allows you to connect your PS/2 mouse to your Commo
 
 It uses a slighly modified PS2Mouse.cpp but I'm not sure where I got the original from and what has been modified.
 
-The code is far from pretty..!
+The code is far from pretty..! I never gotten around to cleaning it up.
 
 
 # Known issues
-KNOWN ISSUES:
 - Theoretically a middle button could be supported, but this only supported the LEFT and the RIGHT buttons.
 - Mouse speed is hardcoded.
+- The code is quite ugly. I can't stress that enough.
 
 
 # Amiga joystick / mouse port connection
