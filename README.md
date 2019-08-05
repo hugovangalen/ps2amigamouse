@@ -1,7 +1,7 @@
 # ps2amigamouse
 
 ![Arduino Nano](https://github.com/hugovangalen/ps2amigamouse/raw/master/images/ps2amigamouse_nano.jpg)
-This image shows the project connected to an actual Amiga 500. The board used is an Arduino Nano, with a DB9 and PS2 connector on a small PCB which I spray-painted white.
+This image shows the project connected to an actual Amiga 500. The board used is an Arduino Nano, with a DB9 and PS/2 connector on a small PCB which I spray-painted white.
 
 # About...
 This is a simple sketch that allows you to connect your PS/2 mouse to your Commodore Amiga 500. Other Amiga types may work, but are untested. I wrote this quite some time ago but never gotten around to share it. 
@@ -36,9 +36,9 @@ BACK of the connector)
 ```
 
 
-# PS2 mouse connection
+# PS/2 mouse connection
 
-FROM PS2 CONNECTOR                               TO ARDUINO
+FROM PS/2 CONNECTOR                              TO ARDUINO
 (female connector, seen from the 
 FRONT of the connector)
 
