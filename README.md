@@ -1,16 +1,21 @@
 # ps2amigamouse
 
 ![Arduino Nano](https://github.com/hugovangalen/ps2amigamouse/raw/master/images/ps2amigamouse_nano.jpg)
+This image shows the project connected to an actual Amiga 500. The board used is an Arduino Nano, with a DB9 and PS2 connector on a small PCB which I spray-painted white.
 
+# About...
 This is a simple sketch that allows you to connect your PS/2 mouse to your Commodore Amiga 500. Other Amiga types may work, but are untested. I wrote this quite some time ago but never gotten around to share it. 
 
 It uses a slighly modified PS2Mouse.cpp but I'm not sure where I got the original from and what has been modified.
 
 The code is far from pretty..!
 
+
+# Known issues
 KNOWN ISSUES:
 - Theoretically a middle button could be supported, but this only supported the LEFT and the RIGHT buttons.
 - Mouse speed is hardcoded.
+
 
 # Amiga joystick / mouse port connection
 
@@ -30,6 +35,7 @@ BACK of the connector)
                          9 - BUTTON 2(R)       -> Arduino PIN 7
 ```
 
+
 # PS2 mouse connection
 
 FROM PS2 CONNECTOR                               TO ARDUINO
@@ -45,4 +51,5 @@ FRONT of the connector)
                          6 - not connected
 ```
 
+Early Arduino prototype with wiring visible:
 ![Early Arduino prototype](https://github.com/hugovangalen/ps2amigamouse/raw/master/images/ps2amigamouse.jpg)
